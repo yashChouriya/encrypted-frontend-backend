@@ -19,7 +19,7 @@ app.use(
 ); // Enable HSTS header
 
 // Generate RSA keys
-const { privateKey, publicKey, publicKeyForFrontend } = generateKeyPair();
+const { privateKey, publicKeyForFrontend } = generateKeyPair();
 
 // Helper function to generate RSA key pair
 function generateKeyPair() {
