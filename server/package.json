@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "description": "Demo project showcasing secure API communication between a React frontend and Node.js backend using RSA encryption.",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "node-forge": "^1.3.1",
+    "nodemon": "^3.0.1"
+  },
+  "author": "Your Name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashChouriya/encrypted-frontend-backend.git"
+  },
+  "license": "MIT",
+  "devEmail": "yashchouriya131@gmail.com"
+}
